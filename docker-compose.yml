@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  web:
+    image: student-web:latest
+    ports:
+      - "80:80"
+    restart: always
+    container_name: student-web-container
